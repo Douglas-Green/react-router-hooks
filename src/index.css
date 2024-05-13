@@ -1,0 +1,78 @@
+/** @format */
+
+html,
+body {
+  background-color: #222;
+  color: gold;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-size: 1.5rem;
+  color: rgba(247, 246, 246, 0.986);
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.film-poster {
+  width: 20%;
+  object-fit: cover;
+}
+
+.singleFilmContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.singleFilmLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+
+a:hover {
+  color: gold;
+  transform: scale(1.2);
+}
+
+.singleFilmTitle {
+  font-size: 4rem;
+  color: magenta;
+  text-shadow: 2px 2px 30px white;
+  margin: 20px;
+}
+
+.singleFilmP {
+  font-size: 2rem;
+  color: white;
+  margin: 20px;
+}
+
+.descriptionP {
+  font-size: 2rem;
+  color: white;
+  margin: 20px;
+}
+
+.singleFilmDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.filmsPageLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-size: 2rem;
+  color: gold;
+}
+
+.rottenTomatoes {
+  color: red;
+}
